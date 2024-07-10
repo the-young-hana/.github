@@ -1,102 +1,5 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>TheYoungHana</title>
-      <meta name="description" content="사회에 첫 발을 디딘 MZ세대 대학생들을 위한 맞춤형 금융 서비스">
-      <meta name="keywords" content="금융, 대학생, MZ세대, 금융 서비스">
-      <meta name="author" content="TheYoungHana">
-      <meta property="og:title" content="TheYoungHana - 대학생을 위한 금융 생활 동반자">
-      <meta property="og:description" content="사회에 첫 발을 디딘 MZ세대 대학생들을 위한 맞춤형 금융 서비스">
-      <meta property="og:image" content="https://repository-images.githubusercontent.com/817622930/7e96d62f-3fbc-4c90-abd1-eba331f61291">
-      <meta property="og:url" content="https://theyounghana.kro.kr">
-      <meta property="og:type" content="website">
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="TheYoungHana - 대학생을 위한 금융 생활 동반자">
-      <meta name="twitter:description" content="사회에 첫 발을 디딘 MZ세대 대학생들을 위한 맞춤형 금융 서비스">
-      <meta name="twitter:image" content="https://repository-images.githubusercontent.com/817622930/7e96d62f-3fbc-4c90-abd1-eba331f61291">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <style>
-         :root {
-         --hana-green: #008C8C;
-         --hana-red: #D70037;
-         --hana-gold: #B27A3E;
-         --hana-silver: #B5B5B5;
-         --hana-black: #000000;
-         --hana-white: #FFFFFF;
-         --hana-pink: #E40054;
-         }
-         .bg-hana-green { background-color: var(--hana-green); }
-         .bg-hana-red { background-color: var(--hana-red); }
-         .bg-hana-gold { background-color: var(--hana-gold); }
-         .bg-hana-silver { background-color: var(--hana-silver); }
-         .bg-hana-black { background-color: var(--hana-black); }
-         .bg-hana-white { background-color: var(--hana-white); }
-         .bg-hana-pink { background-color: var(--hana-pink); }
-         .text-hana-green { color: var(--hana-green); }
-         .text-hana-red { color: var(--hana-red); }
-         .text-hana-gold { color: var(--hana-gold); }
-         .text-hana-silver { color: var(--hana-silver); }
-         .text-hana-black { color: var(--hana-black); }
-         .text-hana-white { color: var(--hana-white); }
-         .text-hana-pink { color: var(--hana-pink); }
-         body {
-         display: flex;
-         flex-direction: column;
-         min-height: 100vh;
-         }
-         main {
-         flex: 1;
-         }
-         body.dark-mode {
-         background-color: #1a1a1a;
-         color: #e4e4e4;
-         }
-         body.dark-mode .bg-white {
-         background-color: #333;
-         }
-         body.dark-mode .text-gray-800 {
-         color: #e4e4e4;
-         }
-         table {
-         width: 100%;
-         border-collapse: collapse;
-         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-         margin-bottom: 20px;
-         }
-         th, td {
-         border: 1px solid var(--hana-silver);
-         padding: 12px 15px;
-         text-align: left;
-         transition: background-color 0.3s ease;
-         }
-         th {
-         background-color: var(--hana-green);
-         color: var(--hana-white);
-         font-weight: bold;
-         }
-         table {
-         margin-bottom: 16px;
-         }
-         @media (max-width: 768px) {
-         .hide {
-         display: none;
-         }
-         }
-         @media (max-width: 753px) {
-         .tables-md {
-         display: none;
-         }
-         }
-         @media (min-width: 753px) {
-         .tables-sm {
-         display: none;
-         }
-         }
-      </style>
-   </head>
    <body class="bg-gray-100 text-gray-800">
       <main>
          <section class="py-8 md:py-16">
@@ -104,7 +7,7 @@
                <div class="flex justify-center mb-4 md:mb-8">
                   <img src="https://repository-images.githubusercontent.com/817622930/7e96d62f-3fbc-4c90-abd1-eba331f61291" alt="더영하나" class="mx-auto">
                </div>
-               <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">대학생을 위한 금융 생활 동반자</h2>
+               <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">대학생을 위한 금융 생활 동반자</h1>
                <p class="text-base md:text-lg lg:text-xl">사회에 첫 발을 디딘 MZ세대 대학생들을 위한 맞춤형 금융 서비스</p>
             </div>
          </section>
