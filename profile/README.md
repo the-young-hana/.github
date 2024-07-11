@@ -32,6 +32,10 @@
                 </div>
              </div>
             </div>
+         <h2 class="text-xl md:text-2xl font-bold mb-4">📹 시연영상</h2>
+         <a href="https://www.youtube.com/watch?v=ECoUt2NdIao">
+            <img src="https://github.com/Hana4Team/.github/assets/101039358/49a5244a-51ae-4a33-989f-8197e92cb72a" />
+         </a>
             <div class="tables-sm container mx-auto px-4 mb-8">
                <h2 class="text-xl md:text-2xl font-bold mb-4">🧑‍🤝‍🧑 역할 분담</h2>
                <table class="table-auto w-full border-collapse">
